@@ -1,6 +1,14 @@
 body {
+    height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
+       
+}
+.gradient{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg,#e9f0f5,#f2f0f4,#f5f5f5) no-repeat 100% 100%;
 }
 
 header{
@@ -30,6 +38,7 @@ header h3 {
 }
 
 .dropdown-container {
+    height: 100%;
     display: flex;
     justify-content: flex-end;
     gap: 10px;

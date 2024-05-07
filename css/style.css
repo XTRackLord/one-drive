@@ -108,8 +108,18 @@ a.textbar {
     color: #242424;
     font-size: 14px;
     font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+a.textbar:hover {
+    background-color: rgba(179, 178, 180, 0.26);
+    height: inherit;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .iconca{
     font-size: 16px;
 }
+
